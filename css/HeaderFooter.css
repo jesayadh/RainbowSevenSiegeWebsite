@@ -1,0 +1,205 @@
+.body{
+    font-family: 'Poppins' !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/*buat header*/
+.header {
+    width: 100%;
+    background-color: black;
+    top: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.header h2 {
+    color: white;
+    font-family: Arial;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+/*buat header*/
+
+/*buat navbar*/
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: goldenrod;
+    height: 66px;
+    z-index: 9999;
+}
+.pistol{
+    width: 60px;
+    height: 60px;
+    background: url(../Assets/icon/gun.svg) no-repeat;
+    background-size: 60px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown:hover .pistol{
+    transform: rotate(-90deg);
+    animation:animate 0.8s linear;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(-90deg);
+  }
+}
+
+.logo img{
+    margin-top: 0.8%;
+    margin-left: 0.8%;
+    width: 200px;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+.dropdown-content {
+    left: 0;
+    display: none;
+    position: absolute;
+    background-color: rgb(194, 144, 19);
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    animation:animatee 0.5s linear;
+    text-align: center;
+}
+
+@keyframes animatee{
+  0%{
+      opacity: 0%;
+      height: 0;
+  }
+  50%{
+      opacity: 50%;
+      height: 200px;
+  }
+  100%{
+      opacity: 100%;
+  }
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+  
+.dropdown-content a:hover {
+    background-color: goldenrod;
+    background: url(../Assets/icon/aim.svg) no-repeat,goldenrod;
+    background-position: center;
+    background-size: 80px;
+    text-decoration: none;
+    color: black;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
+
+.dropdown2:hover{
+    background-color: goldenrod;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: goldenrod;
+    width: 30%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 101;
+    text-align: center;
+    left: 50%;
+    margin:0 0 0 -15%;
+}
+
+.dropbtn2{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content2 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+  
+.dropdown-content2 a:hover {
+    background: url(../Assets/icon/aim.svg) no-repeat,rgb(194, 144, 19);
+    background-position: center;
+    background-size: 40px;
+}
+  
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+/*buat navbar*/
+
+/*buat footer*/
+.footer {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    bottom: 0;
+}
+
+.footer h3 {
+    font-family: Calibri;
+    font-weight: normal;
+    color: white;
+}
+
+.footerIcon {
+    box-sizing: border-box;
+}
+
+.iconFB {
+    width: 15px;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+    transition: .2s;
+}
+
+.iconTW {
+    width: 30px;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+}
+
+.iconYT {
+    width: 40px;
+    height: 30px;
+    margin: 0px 5px 0px 5px;
+}
+
+.footer p {
+    font-family: Calibri;
+    font-weight: normal;
+    color: white;
+}
+/*buat footer*/

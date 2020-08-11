@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/PreOrder.css">
+    <link rel="stylesheet" type="text/css" href="../css/HeaderFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rainbow Seven Siege</title>
+    
+<body class="body">
+    <!--header-->
+    <div class="header">
+        <h2>Ubipost</h2>
+    </div>
+    <!--header-->
+
+    <!--navbar-->
+    <div class="navbar">
+        <div class="dropdown">
+            <button class="pistol"></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="Home.html"><h4>Home</h4></a>
+                <div class="dropdown2">
+                    <button class="dropbtn2"><h4>Game 
+                        <i class="fa fa-caret-down"></i></h4>
+                    </button>
+                    <div class="dropdown-content2">
+                        <a href="./Operators.html">Operator</a>
+                        <a href="./Maps.html">Maps</a>
+                        <a href="./Quarantine.html">Quarantine</a>
+                    </div>
+                </div> 
+                <a href="preorder.html"><h4>Pre-Order</h4></a>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="Home.html"><img src="../Assets/logo1hitam.png" alt=""></a>
+        </div>
+    </div>
+    <!--navbar-->
+
+    <!--Body-->
+    <div class="background">
+        <div class="ContainerH">
+            <br>
+            <img class="preorder1" src="../Assets/Preorder/11.png">
+            <br>
+            <img class="preorder2" src="../Assets/Preorder/2.png">
+            <br>
+            <img class="preorder3" src="../Assets/Preorder/33.png">
+        </div>
+        <div class="Version">
+            <h3 class="Vheader" style="color: white;">Choose Your Edition</h1>
+                <div class="row">
+                    <div class="column1">
+                        <img class="Edition1" src="../Assets/Preorder/Standard_Edition2.jpg" style="width: 100%;">
+                        <br>  
+                    </div>
+                    <div class="column2">
+                        <img class="Edition2" src="../Assets/Preorder/Gold_Edition1.jpg"style="width: 100%;">
+                        <br>  
+                    </div>   
+                    <div class="column3">
+                        <img class="Edition3" src="../Assets/Preorder/Ultimate_Edition.jpg"style="width: 100%;">
+                        <br>  
+                    </div>
+                </div>
+            <img class="Type" src="../Assets/Preorder/Versionn2.png">
+        </div>
+
+    <!--Form Pre-Order-->    
+        <div class="Form">
+            <div class="FormNama">
+                <label for= "" style="color: white;font-size: large;" class="formtable">Name</label> <br>
+                <input id = "name1" type= "text" required>
+            </div>
+            <br>
+            <div class="FormEmail">
+                <label for= ""style="color: white;font-size: large;"class="formtable">Email</label><br>
+                <input id = "email" type= "text">
+            </div>
+            <br>
+            <div class="FormAddress">
+                <label for= "" style="color: white; font-size: large;"class="formtable" >Address</label><br>
+                <input id = "address" type= "text">
+            </div>
+            <br>
+            <div class="FormNOC">
+                <label for= ""style="color: white;font-size: large;"class="formtable">Number Of Copies</label><br>
+                <input id = "NOC" type= "text">
+            </div>
+            <br>
+            <div class="FormType">
+                <label for= ""style="color: white;font-size: large;"class="formtable">Type</label><br>
+                <input id = "type" type= "text">
+            </div>
+            <br>
+            <div class="Agreement">               
+                <input type="checkbox" name="checkbox" value="check" id="agree"/>
+                <label for="agree" style="color: white;">I have read and agree to the Terms and Conditions and Privacy Policy</label> 
+            </div>
+            <br>
+            <div>
+                <button type="button" class="SButton" style="color: white; align-items:center ;" onclick="addValueToArray()">Submit</button>            
+            </div>
+            
+        </div>            
+        <hr>
+        <div id="data">
+        </div>
+
+    </div>
+        
+    <!--Body-->
+
+    <!--footer-->
+    <div class="footer">
+        <h3>VISIT US ON :</h3>
+        <div class="footerIcon">
+            <a href="https://www.facebook.com/rainbowsixsiegeofficial/">
+                <img src="../Assets/Preorder/facebook.png" class="iconFB">
+            </a>
+            <a href="https://twitter.com/rainbow6game">
+                <img src="../Assets/Preorder/twitter.png" class="iconTW">
+            </a>
+            <a href="https://www.youtube.com/channel/UCWKHac5bjhsUtSnMDFCT-7A">
+                <img src="../Assets/Preorder/youtube.png" class="iconYT">
+            </a>
+        </div>
+        <p>© 2020 Ubipost Entertainment. All Rights Reserved. Rainbow Seven, The Gun Icon, Ubipost and the logo are registered or <br>
+            trademarks of Ubipost Entertainment in the U.S. and/or other countries.<br><br>
+           Made with ♥ by Alvin Liem, Andrean Constantin, Jesaya Danny Herlim, Elizabeth Vanessa.</p>
+    </div>
+    <!--footer-->
+</body>
+<script type = "text/javascript" src="../script/Validasi_Form_PreOrder.js"></script>
+</html>

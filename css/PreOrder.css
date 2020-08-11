@@ -1,0 +1,156 @@
+.background {
+    background-color: black;
+    background-image: url("../Assets/Preorder/22222.jpg");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.Vheader{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}  
+
+.ContainerH{
+    position: relative;
+    text-align: center;
+}
+  .preorder1{
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+  }
+  .preorder2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .preorder3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  .Vheader{
+      text-align: center;
+  }
+
+  .Form{
+      text-align: center;
+  }
+
+  .column1 {
+   margin: auto;
+    width: 30%;
+    display: inline-block;
+  }
+  .column2 {
+    margin: auto;
+    display: inline-block;
+    width: 30%;
+  }
+  .column3 {
+    margin: auto;
+    display: inline-block;
+    width: 30%;
+  }
+
+  .row{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      align-content: center;
+      content: "";
+      clear: both;
+  }
+
+.Edition1{
+    display: inline-block;
+    transition: all 0.3s ease-in-out 0.2s;
+}
+.Edition1:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}     
+.Edition2{
+    display:  inline-block;
+    
+    transition: all 0.3s ease-in-out 0.2s;
+}
+.Edition2:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}      
+.Edition3{
+    display:  inline-block;
+    transition: all 0.3s ease-in-out 0.2s;
+}
+.Edition3:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.Type{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}      
+
+.Form{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-justify: inter-word;
+    position: relative;
+}
+.SButton{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 10%;
+  border: none;
+  background-color:maroon;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.SButton:hover {
+    background-color:green;
+    color: black; 
+}
+.formtable{
+    padding: 10px;
+    color: white;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 800px) {
+.ContainerH{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+.Version{
+    display: block;
+    width: 70%;
+    position: relative;
+    
+}
+
+
+}

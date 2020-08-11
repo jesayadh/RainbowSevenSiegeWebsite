@@ -1,0 +1,130 @@
+.background{
+    background-image: url(../Assets/bg.png);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.picture-behind-bank{
+    display: inline-block;
+    background-image: url(../Assets/bankbackground.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0.8;   
+    height: 13cm;
+    width: 25cm;
+    margin-left: 7cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.picture-behind-border{
+    display: inline-block;
+    background-image: url(../Assets/borderbackground.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0.8;   
+    height: 13cm;
+    width: 25cm;
+    margin-left: 7cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.picture-behind-kafe{
+    display: inline-block;
+    background-image: url(../Assets/kafebackground.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0.8;   
+    height: 13cm;
+    width: 25cm;
+    margin-left: 7cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.picture-behind-oregon{
+    display: inline-block;
+    background-image: url(../Assets/oregonbackgroundD.png) ;
+    background-repeat: no-repeat;
+    opacity: 0.8;   
+    height: 13cm;
+    width: 25cm;
+    margin-left: 7cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.picture-behind-plane{
+    display: inline-block;
+    background-image: url(../Assets/planebackground.jpg) ;
+    background-repeat: no-repeat;
+    opacity: 0.8;   
+    height: 13cm;
+    width: 25cm;
+    margin-left: 7cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+
+.content{
+    display: inline-block;
+    margin-bottom: 2cm;
+    margin-top: 2cm;
+}
+
+.text{
+    display: inline-block;
+    text-align: left;
+    color: white;
+    vertical-align: top;
+    margin-top: 2cm;
+    background: rgba(85, 74, 74, 0.3);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.description{
+    margin-top: -0.5cm; 
+}
+
+.photo{
+    display: inline-block;
+    width: 10cm;
+    height: 8cm;
+    opacity: 100%;
+    vertical-align: top;
+    border: 2px black;
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.title{
+    display: inline-block;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 0;
+    
+}
+
+.back-button{
+    display: inline-block;
+    width: 2cm;
+    height: 1cm;
+    padding-top: 0.5cm;
+    padding-left: 0.2cm;
+    margin-bottom: 2cm;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+
+.back{
+    display: inline-block;
+    color: white;
+    font-size: 16;
+    text-decoration: none;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.back-button:hover{
+    display: inline-block;
+    border-color: gold;
+    background-color: rgba(212, 189, 189, 0.3);
+}

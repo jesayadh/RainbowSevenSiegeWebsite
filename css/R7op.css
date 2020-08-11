@@ -1,0 +1,188 @@
+.body {
+    margin: 0;
+    background-image: url(../Assets/coolbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+.def-or-atklogo {
+    position: absolute;
+    width: 30%;
+    transform: translate(50%, 10%);
+    left: 20%;
+    z-index: 1;
+}
+
+.opPhoto {
+    position: relative;
+    padding-top: 3%;
+    padding-left: 31%;
+    margin-bottom: -0.25%;
+    width: 62%;
+    z-index: 2;
+}
+
+.loadout-container1 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    color: white;
+    margin-top: -270px;
+    text-align: center;
+    z-index: 3;
+}
+
+.loadout-container2 {
+    width: 80%;
+    margin: auto;
+}
+
+.loadout-card {
+    border: 1px solid goldenrod;
+    margin: 10px;
+    display: inline-block;
+    width: 220px;
+    background-color: black;
+}
+
+.loadout-card p, .role{
+    text-transform: uppercase;
+}
+
+.img {
+    width: 100%;
+}
+
+.black {
+    color: black;
+    visibility: hidden;
+}
+
+.information {
+    position: absolute;
+    left: 7%;
+    top: 10%;
+    width: 30%;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+    width: 35%;
+    margin: auto;
+}
+
+.logo, .name, .flag {
+    display: inline-block;
+}
+.logo {
+    width: 100px;
+}
+
+.name {
+    font-weight: normal;
+    font-size: 20pt;
+    margin-right: 10px;
+}
+
+.information p, .information h3 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.bntback {
+    padding: 10px;
+    border: 1px solid goldenrod;
+    width: 8%;
+    text-align: center;
+    font-size: 16pt;
+    margin: 40px auto auto 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    transition: .4s;
+}
+
+.bntback:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .loadout-card {
+        border: 1px solid goldenrod;
+        margin: 10px auto 10px auto;
+        display: inline-block;
+        width: 220px;
+        background-color: black;
+    }
+
+    .loadout-container1 {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.8);
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        width: 100%;
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        z-index: 3;
+    }
+
+    .opPhoto {
+        position: relative;
+        padding-top: 3%;
+        padding-left: 0%;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .def-or-atklogo {
+        position: absolute;
+        width: 90%;
+        transform: translate(5%, -10%);
+        left: 0;
+        z-index: 1;
+    }
+
+    .information {
+        position: relative;
+        width: 100%;
+        margin-left: -7%;
+        margin-top: -0.5%;
+        text-align: center;
+        background-color: black;
+        border-top: 2px solid grey;
+    }
+
+    .info{
+        border: 1px solid black;
+        width: 150px;
+    }
+
+    .bntback {
+        padding: 10px;
+        border: 1px solid goldenrod;
+        width: 8%;
+        text-align: center;
+        font-size: 10pt;
+        margin: 40px auto auto 40px;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        transition: .4s;
+    }
+    
+    .bntback:hover {
+        background-color: goldenrod;
+        color: black;
+    }
+}

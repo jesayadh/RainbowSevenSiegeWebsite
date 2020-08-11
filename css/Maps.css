@@ -1,0 +1,207 @@
+.body{
+    background-image: url(../Assets/bg.png);
+    size: cover;
+}
+
+#title {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#exp{
+    color: white;
+    text-align: center; 
+}
+
+.mapbox{
+    margin: 0 auto;
+    position: center;
+    margin-left: 50px;
+}
+
+.pictures{
+    display: inline-block;
+}
+
+.pict1, .pict2, .pict3{
+    width: 300px;
+    height: 400px;
+    position: center;
+    transition: 0.5s;
+}
+.pict3{
+    margin-left: 5px;
+}
+.pict1:hover, .pict2:hover, .pict3:hover{
+    border: 2px solid goldenrod;
+    transform: scale(1.05);
+}
+
+.firstmap{
+    width: 300px;
+    height: 400px;
+}
+
+.middlemap{
+    width: 300px;
+    height: 400px;
+}
+
+.lastmap{
+    width: 300px;
+    height: 400px;
+}
+
+.mapname1, .mapname2, .mapname3{
+    color: white;
+
+    position: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 680px) {
+
+        
+    #title {
+        color:white;
+        font-size: xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .pict1{
+        display: inline-block; 
+        width: 300px;
+        height: 400px;
+        transition: 0.5s;
+    }
+
+    .pict2{
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        margin-left: 10px;
+        transition: 0.5s;
+    }
+
+
+    .pict3{
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        transition: 0.5s;
+    }
+
+
+    .pict1:hover, .pict2:hover, .pict3:hover{
+        border: 2px solid goldenrod;
+        transform: scale(1.05);
+    }
+
+    .firstmap{
+        width: 300px;
+        height: 400px;
+    }
+
+    .middlemap{
+        width: 300px;
+        height: 400px;
+    }
+
+    .lastmap{
+        width: 300px;
+        height: 400px;
+    }
+    
+}
+@media screen and (min-width: 1500px) {
+
+        
+    #title {
+        color:white;
+        font-size: xx-large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+    
+    .pict1{
+        display: inline-block; 
+        width: 300px;
+        height: 400px;
+        margin-left: 1.5cm;
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+        margin-right: -0.8cm;
+        clip-path: polygon(-1% -1%, 91% -1%, 71% 101%, -1% 101%);
+        transition: 0.5s;
+    }
+
+    .pict2{
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        margin-left: -1.5cm;
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+        clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+        transition: 0.5s;
+    }
+
+
+    .pict3{
+        display: inline-block;
+        width: 300px;
+        height: 400px;
+        margin-left: -1.5cm;
+        margin-top: 0.5cm;
+        margin-bottom: 0.5cm;
+        clip-path: polygon(20% 0, 91% 0, 91% 101%, -1% 101%);
+        transition: 0.5s;
+    }
+
+
+    .pict1:hover, .pict2:hover, .pict3:hover{
+        border: 2px solid goldenrod;
+        transform: scale(1.05);
+    }
+
+    .firstmap{
+        width: 300px;
+        height: 400px;
+        clip-path: polygon(0 0, 90% 0, 70% 100%, 0 100%);
+    }
+
+    .middlemap{
+        width: 300px;
+        height: 400px;
+        clip-path: polygon(20% 0, 100% 0, 80% 100%, 0 100%);
+    }
+
+    .lastmap{
+        width: 300px;
+        height: 400px;
+        clip-path: polygon(20% 0, 90% 0, 90% 100%, 0 100%);
+    }
+
+    .mapname1{
+        color: white;
+        padding-left: 3.5cm;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .mapname2{
+        color: white;
+        margin-left: 0.5cm;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .mapname3{
+        color: white;
+        margin-left: -0.5cm;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+}

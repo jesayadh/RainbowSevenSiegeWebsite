@@ -1,0 +1,10 @@
+background : https://i.imgur.com/kVhUDTK.jpg
+bank : https://steamuserimages-a.akamaihd.net/ugc/788610999299271962/B266304194D9740FB4C1D37C669D6EEBB5A89229/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true
+border : https://i2.wp.com/letstalkgaming.com/wordpress/wp-content/uploads/2016/05/RB6_DustLine_Screenshot_BORDER_EXT_Day_1462799294.png
+presidential plane : https://vignette.wikia.nocookie.net/rainbowsix/images/2/25/Siege_Plane_Thumbnail.PNG/revision/latest?cb=20191020091123
+oregon : https://vignette.wikia.nocookie.net/rainbowsix/images/e/e6/Oregon_Rework.jpeg/revision/latest?cb=20200325144658
+kafe dostoyevsky : https://vignette.wikia.nocookie.net/rainbowsix/images/7/7e/RainbowSixSiege-KafeDostoyevsky.jpg/revision/latest?cb=20151202230016
+bankbackground : https://steamuserimages-a.akamaihd.net/ugc/933804182311051475/4C61A291E31ACA665716684705176BCB81701718/
+borderbackground : https://i.ytimg.com/vi/rOGEr9BIEVY/maxresdefault.jpg
+oregonbackground : https://ubistatic19-a.akamaihd.net/resource/en-nordic/game/rainbow6/siege-v3/r6-maps-video-oregon_352572.jpg
+planebackground : https://i.pinimg.com/originals/5d/55/cc/5d55cc17e05e9ad4e4c476e25215ab99.jpg
